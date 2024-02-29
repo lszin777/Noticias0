@@ -77,19 +77,17 @@ body{
 
 }
 
+.segunda-secao {
+    background-color: var(--dark-blue);
+    margin-bottom: 4rem;
+    padding: 1.5rem 1.1rem;
+}
+
 .margin-border-padding{
     border-bottom: 1px solid var(--gunmetal);
     margin-bottom: 1.75rem;
     padding-bottom: 1.75rem;
 
-}
-
-
-
-.segunda-secao {
-    background-color: var(--dark-blue);
-    margin-bottom: 4rem;
-    padding: 1.5rem 1.1rem;
 }
 
 .segunda-secao h2 {
