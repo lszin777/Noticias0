@@ -54,7 +54,7 @@ header button {
     
 }
 
-header nav.mobile {
+header nav .mobile {
     position: fixed;
     background-color: var(--almost-white);
     right: -16rem;
@@ -62,17 +62,14 @@ header nav.mobile {
     height: 100vh;
     width: 16rem;
     z-index: 999;
-
-
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
     gap: 1.5rem;
-
     transition: 0.7s;
 }
 
-header nav.mobile.abrir{
+header nav .mobile.abrir{
     right: 0;
 }
 
@@ -81,7 +78,7 @@ header nav button {
     margin-bottom: 4rem;
 }
 
-header .mobile nav a {
+header .mobile a {
     text-decoration: none;
     color: var(--dark-blue);
     font-size: 1.125rem;
